@@ -40,18 +40,40 @@
                             </div>
                             <div class="member">
                                 <lable for ="sign up" class ="form-lable" text="justify-content-center">Already Member</lable> 
-                               
+                                <hr class="border border-danger border-1 opacity-75 mt-4">
                             </div>
                             <div class ="signup">
                             <button type="submit" class="btn btn-secondary">Sign up here</button>
                             </div>
+                            <div class="text-center mt-3">
+                                <P class="text-black mt-4 text-center fw-bold"><a href="Forgotpwd.html">Forgot Password?</a></P>
+                                <hr class="text-light mt-4">
+                            </div>
+                            
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+    <!-- Bootstrap Modal for alert -->
+<div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="alertModalLabel">Error</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="alertModalBody">
+                <!-- Alert message will be inserted here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

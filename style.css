@@ -116,6 +116,7 @@ body {
   margin-top: 100px;
 }
 .card {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3rZmH-b6a0Y3KXwchrhj-IyM4pdJO7HZcfJH6jAlJdvUbUXQ_5H_XEi-nBsLC69GLbeU&usqp=CAU);
   background-color: lightskyblue;
   border: 10px;
 }
@@ -138,8 +139,9 @@ body {
   border: none;
   position: relative;
   border: 1px solid #000000;
-  box-shadow: 0 5px 10px #12ffff;
+  box-shadow: 0 5px 10px aqua;
   border-radius: 10px;
+  color:#000000
 }
 .heading{
     margin-top: 25px;
