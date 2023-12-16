@@ -121,9 +121,10 @@ body{
     
 
 input{
-    background-color: lightskyblue !important;
+    background-color:slateblue !important;
+    
 }
-.input:hover:hover {
+.input:hover {
     background-color: grey; /* Set the desired background color on hover */
   }
 /* Add this to your existing styles or in a separate CSS file */
@@ -135,16 +136,16 @@ input{
   .card:hover {
     background-color: lightgreen; /* Set the desired background color on hover */
   }
-  /* .btn {
+   .btn {
     padding: 10px;
     background-color: blue;
     border: none;
     color: black;
     border: 1px solid #000000;
-    box-shadow: 0 5px 10px aqua;
+    box-shadow: 0 5px 10px blue;
     border-radius: 10px;
     color:#000000
-  } */
+  } 
  .card .btn btn-secondary {
     background-color: red; /* Set the desired background color for the button with class btn-secondary */
 }
