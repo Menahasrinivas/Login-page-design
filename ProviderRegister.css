@@ -120,7 +120,7 @@ body {
       linear-gradient(90deg, rgb(151, 26, 210), rgb(57, 199, 205));
     /* Set a background color */
 
-  }
+}
 
 .container {
     width: 700px;
@@ -191,4 +191,4 @@ body {
   @media (max-width: 400px) {
     .container {
       width: 90%; /* Adjust the width for smaller screens */
-    }
+    } }
